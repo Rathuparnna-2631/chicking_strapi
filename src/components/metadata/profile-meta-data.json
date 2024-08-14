@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_metadata_profile_meta_data",
+  "info": {
+    "displayName": "profileMetaData"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "text"
+    }
+  }
+}
