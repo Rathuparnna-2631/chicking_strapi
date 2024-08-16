@@ -73,6 +73,9 @@
       "type": "component",
       "repeatable": false,
       "component": "metadata.profile-meta-data"
+    },
+    "phoneNumber": {
+      "type": "text"
     }
   }
 }

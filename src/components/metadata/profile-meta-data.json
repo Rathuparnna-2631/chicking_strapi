@@ -1,7 +1,8 @@
 {
   "collectionName": "components_metadata_profile_meta_data",
   "info": {
-    "displayName": "profileMetaData"
+    "displayName": "profileMetaData",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,10 +12,10 @@
     "lastName": {
       "type": "string"
     },
-    "phoneNumber": {
-      "type": "integer"
-    },
     "email": {
+      "type": "text"
+    },
+    "PhoneNumber": {
       "type": "text"
     }
   }

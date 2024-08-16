@@ -4,12 +4,13 @@ export interface MetadataProfileMetaData extends Schema.Component {
   collectionName: 'components_metadata_profile_meta_data';
   info: {
     displayName: 'profileMetaData';
+    description: '';
   };
   attributes: {
     firstName: Attribute.String;
     lastName: Attribute.String;
-    phoneNumber: Attribute.Integer;
     email: Attribute.Text;
+    PhoneNumber: Attribute.Text;
   };
 }
 
