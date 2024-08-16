@@ -15,8 +15,8 @@
     "email": {
       "type": "text"
     },
-    "PhoneNumber": {
-      "type": "text"
+    "phoneNumber": {
+      "type": "string"
     }
   }
 }

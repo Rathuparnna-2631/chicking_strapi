@@ -884,6 +884,8 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
     firebaseUserID: Attribute.String;
     profilemetadata: Attribute.Component<'metadata.profile-meta-data'>;
     phoneNumber: Attribute.Text;
+    firstName: Attribute.String;
+    lastName: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<

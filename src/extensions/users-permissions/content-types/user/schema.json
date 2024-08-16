@@ -76,6 +76,12 @@
     },
     "phoneNumber": {
       "type": "text"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
     }
   }
 }

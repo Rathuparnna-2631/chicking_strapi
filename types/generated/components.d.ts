@@ -10,7 +10,7 @@ export interface MetadataProfileMetaData extends Schema.Component {
     firstName: Attribute.String;
     lastName: Attribute.String;
     email: Attribute.Text;
-    PhoneNumber: Attribute.Text;
+    phoneNumber: Attribute.String;
   };
 }
 
